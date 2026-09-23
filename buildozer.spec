@@ -1,12 +1,11 @@
-
 [app]
 title = XSMB Pro 365
 package.name = xsmbpro365
 package.domain = com.xsmbpro.app
-source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,json
+source.dir =.
+source.include_exts = py,png,jpg,kv,atlas,json,ttf
 version = 0.1
-requirements = python3,kivy==2.3.0
+requirements = python3,kivy==2.3.0,kivymd==1.1.1,requests,certifi,charset-normalizer,urllib3
 orientation = portrait
 fullscreen = 0
 
@@ -23,3 +22,5 @@ android.minapi = 21
 android.ndk = 25b
 android.sdk = android
 android.accept_sdk_license_agreement = True
+android.ant = auto
+android.archs = arm64-v8a, armeabi-v7a
